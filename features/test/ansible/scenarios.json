@@ -1,0 +1,10 @@
+{
+    "hello": {
+        "image": "ubuntu:22.04",
+        "features": {
+            "ghcr.io/bounverif/devcontainers/features-ansible:0": {
+                "version": "latest"
+            }
+        }
+    }
+}
