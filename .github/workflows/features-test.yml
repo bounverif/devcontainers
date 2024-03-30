@@ -15,8 +15,8 @@ jobs:
         features:
           - ansible
         baseImage:
-          - buildpack-deps:bookworm-curl:latest
-          - buildpack-deps:jammy-curl:latest
+          - buildpack-deps:bookworm-curl
+          - buildpack-deps:jammy-curl
 
     steps:
       - uses: actions/checkout@v4
