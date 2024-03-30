@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         features:
-          - ansible
+          - features-ansible
         baseImage:
           - buildpack-deps:bookworm-curl
           - buildpack-deps:jammy-curl
@@ -33,7 +33,7 @@ jobs:
       fail-fast: false
       matrix:
         features:
-          - ansible
+          - features-ansible
 
     steps:
       - uses: actions/checkout@v4
