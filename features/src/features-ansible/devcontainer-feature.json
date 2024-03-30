@@ -1,5 +1,5 @@
 {
-    "id": "ansible",
+    "id": "features-ansible",
     "version": "0.1.0",
     "name": "Ansible (from source)",
     "documentationURL": "https://github.com/bounverif/devcontainers/tree/main/features/src/ansible",
